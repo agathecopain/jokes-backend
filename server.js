@@ -8,6 +8,7 @@ import jokeRoutes from "./routes/joke.routes.js";
 
 const app = express();
 const port = process.env.PORT || 5000;
+const clientUrl = process.env.CLIENT_URL;
 
 app.use(express.json());
 
@@ -24,7 +25,7 @@ const swaggerOptions = {
     },
     servers: [
       {
-        url: `http://localhost:${port}`,
+        url: `${clientUrl}`,
       },
     ],
     components: {
