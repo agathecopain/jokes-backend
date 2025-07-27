@@ -74,6 +74,18 @@ router.get("/joke/:id", getJokeById);
 
 /**
  * @swagger
+ * /api/jokes/random:
+ *   get:
+ *     summary: Affiche une blague aléatoirement
+ *     responses:
+ *       200:
+ *         description: Blague sélectionnée
+ */
+
+router.get("/jokes/random", getRandomJoke);
+
+/**
+ * @swagger
  * /api/joke/{id}:
  *   delete:
  *     summary: Supprime une blague en fonction de son id
@@ -94,17 +106,5 @@ router.get("/joke/:id", getJokeById);
  */
 
 router.delete("/joke/:id", deleteJoke);
-
-/**
- * @swagger
- * /api/jokes/random:
- *   get:
- *     summary: Affiche une blague aléatoirement
- *     responses:
- *       200:
- *         description: Blague sélectionnée
- */
-
-router.get("/jokes/random", getRandomJoke);
 
 export default router;
