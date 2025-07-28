@@ -5,12 +5,14 @@ import swaggerJSDoc from "swagger-jsdoc";
 import "dotenv/config";
 import { connectDB } from "./config/db.js";
 import jokeRoutes from "./routes/joke.routes.js";
+import cors from "cors";
 
 const app = express();
 const port = process.env.PORT || 5000;
 const clientUrl = process.env.CLIENT_URL;
 
 app.use(express.json());
+app.use(cors());
 
 app.use("/api", jokeRoutes);
 
