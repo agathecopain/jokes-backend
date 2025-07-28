@@ -9,7 +9,7 @@ import cors from "cors";
 
 const app = express();
 const port = process.env.PORT || 5000;
-const clientUrl = process.env.CLIENT_URL;
+const clientUrl = process.env.CLIENT_URL || `http://localhost:${port}`;
 
 app.use(express.json());
 app.use(cors());
