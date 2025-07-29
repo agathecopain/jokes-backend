@@ -7,11 +7,11 @@ Elle permet d’afficher des blagues aléatoires depuis une API personnalisée.
 
 | Élement             | Lien                                                                 |
 |---------------------|----------------------------------------------------------------------|
-| 🔗 API (Back)        | [https://jokes-backend-lo7h.onrender.com](https://jokes-backend-lo7h.onrender.com) |
-| 📘 Swagger (Docs)    | [https://jokes-frontend-coral.vercel.app/](https://jokes-frontend-coral.vercel.app/) |
-| 🎨 Front (Landing)   | [https://jokes-frontend-9lzzjwozt-agathes-projects-ec7cb569.vercel.app/](https://jokes-frontend-9lzzjwozt-agathes-projects-ec7cb569.vercel.app/) |
-| 💾 Repo GitHub (Back)| [https://github.com/agathecopain/jokes-frontend](https://github.com/agathecopain/jokes-frontend) |
-| 💻 Repo GitHub (Front)| [https://github.com/agathecopain/jokes-backend](https://github.com/agathecopain/jokes-backend) |
+| API (Back)        | [https://jokes-backend-lo7h.onrender.com](https://jokes-backend-lo7h.onrender.com) |
+| Swagger (Docs)    | [https://jokes-frontend-coral.vercel.app/](https://jokes-frontend-coral.vercel.app/) |
+| Front (Landing)   | [https://jokes-frontend-9lzzjwozt-agathes-projects-ec7cb569.vercel.app/](https://jokes-frontend-9lzzjwozt-agathes-projects-ec7cb569.vercel.app/) |
+| Repo GitHub (Back)| [https://github.com/agathecopain/jokes-backend](https://github.com/agathecopain/jokes-backend) |
+| Repo GitHub (Front)| [https://github.com/agathecopain/jokes-frontend](https://github.com/agathecopain/jokes-frontend) |
 
 
 ## Lancer le projet en local
@@ -19,7 +19,7 @@ Elle permet d’afficher des blagues aléatoires depuis une API personnalisée.
 ### 1. Cloner le dépôt
 
 ```bash
-git clone https://github.com/ton-profil/jokes-backend.git
+git clone https://github.com/agathecopain/jokes-backend.git
 ```
 ### 2. Installer le backend
 ```bash
