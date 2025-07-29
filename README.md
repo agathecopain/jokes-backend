@@ -8,7 +8,7 @@ Elle permet d’afficher des blagues aléatoires depuis une API personnalisée.
 | Élement             | Lien                                                                 |
 |---------------------|----------------------------------------------------------------------|
 | 🔗 API (Back)        | [https://jokes-backend-lo7h.onrender.com](https://jokes-backend-lo7h.onrender.com) |
-| 📘 Swagger (Docs)    | [https://jokes-backend-lo7h.onrender.com/api-docs/](https://jokes-backend-lo7h.onrender.com/api-docs/) |
+| 📘 Swagger (Docs)    | [https://jokes-frontend-coral.vercel.app/](https://jokes-frontend-coral.vercel.app/) |
 | 🎨 Front (Landing)   | [https://jokes-frontend-9lzzjwozt-agathes-projects-ec7cb569.vercel.app/](https://jokes-frontend-9lzzjwozt-agathes-projects-ec7cb569.vercel.app/) |
 | 💾 Repo GitHub (Back)| [https://github.com/agathecopain/jokes-frontend](https://github.com/agathecopain/jokes-frontend) |
 | 💻 Repo GitHub (Front)| [https://github.com/agathecopain/jokes-backend](https://github.com/agathecopain/jokes-backend) |
